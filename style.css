@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 
+
 @font-face {
     font-family: 'rides';
     src: url(font/SF_Cartoonist_Hand.ttf);
@@ -36,7 +37,6 @@
     margin: 0px;
     padding: 0px;
 }
-
 
 
 
