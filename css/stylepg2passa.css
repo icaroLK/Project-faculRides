@@ -23,6 +23,7 @@ header{
     background-color: rgb(175, 91, 245);
     height: 80px;
     text-align: center;
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.322);
 }
 
 
@@ -81,11 +82,12 @@ span{
 
 div.square {
     margin: auto;
-    border: 2px solid black;
+    border: 1px solid black;
     width: 70vw;
     height: 255px;
     border-radius: 10px 10px 0px 0px;
     margin-top: 50px;
+    box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.300)
 }
 
 
@@ -94,12 +96,13 @@ div.square {
 
 div.info{
     margin: auto;
-    border: 2px solid black;
+    border: 1px solid black;
     width: 70vw;
     height: 169px;
     text-align: center;
     background-color: rgb(109, 68, 143);
     border-radius:0px 0px 10px 10px;
+    box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.300)
 
 }
 
@@ -111,7 +114,7 @@ div nav{
 }
 
 
-div nav span{
+div nav span a{
     padding: 10px 10px 10px 10px;
     margin: 10px 0px 5px 10px;
     display: inline-block;
@@ -120,33 +123,35 @@ div nav span{
 }
 
 
-div nav span#aceitar{
-    background-color: rgb(68, 218, 68);
-
+div nav span a#aceitar{
+    
+    background-color: rgb(29, 184, 29);
 
     &:hover{
-    background-color: rgb(156, 233, 156);
+    background-color: rgb(91, 243, 124);
 }
 
 }
 
-div nav span#recusar{
+div nav span a#recusar{
     background-color: rgb(243, 41, 41);
 &:hover{
     background-color: rgb(216, 108, 108);
 }
 }
 
-div nav span#combinar{
-    background-color: rgb(231, 231, 65);
+div nav span a#combinar{
+    background-color: rgb(255, 255, 0);
     &:hover{
-        background-color: rgb(206, 206, 123);
+        background-color: rgb(233, 233, 134);
     }
 }
 
 
 div nav span a{
     text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 
