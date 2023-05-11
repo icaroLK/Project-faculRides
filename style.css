@@ -47,7 +47,7 @@ main{
     max-width: 380px;
     height: 100vh;
     background-image: linear-gradient(2.4rad, #c444dd8a, rgba(28, 28, 239, 0.515));
-    border-radius: 30px;
+    border-radius: 0px;
 }
 
 
