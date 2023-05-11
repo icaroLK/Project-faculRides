@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'rides';
+    src: url(font/SF_Cartoonist_Hand.ttf);
+}
+
+
+@font-face {
+    font-family: 'facul';
+    src: url(font/Caroni-Regular.otf);
+}
+
+
+@font-face {
+    font-family: 'mono';
+    src: url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+}
+
+
+
+
+
+/* img{
+    max-width: 500px;
+    display: inline-block;
+    position: absolute;
+}
+ */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    text-align: center;
+    max-width: 380px;
+    height: 100vh;
+    background-image: linear-gradient(2.4rad, #c444dd8a, rgba(28, 28, 239, 0.515));
+    border-radius: 30px;
+}
+
+
+
+
+h1{
+    display: inline-block;
+    margin-top: 30vh;
+    background-color: rgba(102, 58, 58, 0);
+
+    
+}
+
+
+h1{
+    /* text-shadow: 1px 1px 1px; */
+}
+
+.p1{
+    font-family: 'rides';
+    font-size: 1.5em;
+    color: rgb(8, 19, 103);
+    /* -webkit-text-stroke: 0.01px #30012925; */
+
+}
+
+.p2{
+    font-family: 'rides';
+    font-size: 2.3em;
+    color: rgb(89, 9, 155);
+    -webkit-text-stroke: 0.01px #30012925;
+}
+
+
+
+
+
+nav a{
+    display: inline-block;
+    margin: auto;
+    text-decoration: none;
+    margin: 70px 10px;
+    font-size: 1.2em;
+    padding: 20px;
+    background-color: rgb(81, 9, 141);
+    color: white;
+    border-radius: 30px;
+    &:hover{
+        background-color: rgb(79, 11, 93);
+    }
+}
+
+
+
+
+
+.footer{
+    font-family: 'mono';
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-top: 22vh;
+    color:   rgba(82, 9, 141, 0.496);
+}
