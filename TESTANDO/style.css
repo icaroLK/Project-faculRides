@@ -1,60 +1,36 @@
 @charset "UTF-8";
 
+
+@font-face {
+    font-family: 'rides';
+    src: url(../font/SF_Cartoonist_Hand.ttf);
+}
+
+
+
+
+
 body{
     margin: 0px;
     padding: 0px;
-}
-
-
-/* .celular_border{
-    width: 450px;
-    height: 800px;
-    margin: auto;
-    background-color: rgb(122, 122, 122);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header{
-    background-color: rgb(75, 75, 75);
-    height: 70px;
-
-
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.itens{
-    width: 100px;
-    border: 2px solid black;
-}
-
-.menu{
-    background-color: aqua;
-}
-
-.titulo{
-    background-color: aquamarine;
-}
-
-
-.perfil{
-    background-color: blue;
-} */
-
-
-.header{
-    background-color: rgb(177, 177, 103);
-    display: flex;
+    height: 55px;
     justify-content: space-between;
     align-items: center;
+    background-image: linear-gradient(2.4rad, #c444dd8a, rgba(28, 28, 239, 0.515));
+    box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.349);
 }
 
 
 .item{
     width: 200px;
-    border: 3px solid black;
+
     margin: 10px;
-    background-color: rgb(227, 227, 255);
+;
 }
 
 .item-1{
@@ -62,11 +38,71 @@ body{
     min-width: 30px;
 }
 
+.item img{
+    max-width: 30px;
+}
+
+.p1{
+    font-family: 'rides';
+    font-weight: bold;
+    font-size: 2.1em;
+    color: rgb(8, 19, 103);
+    /* -webkit-text-stroke: 0.01px #30012925; */
+
+}
+
+.p2{
+    font-family: 'rides';
+    font-weight: bold;
+    font-size: 2.9em;
+    color: rgb(89, 9, 155);
+    -webkit-text-stroke: 0.01px #30012925;
+}
+
 .item-2{
     min-height: 30px;
+    text-align: center;
+    /* background-color: aqua; */
+    margin: 0px;
+
+
 }
 
 .item-3{
+    float: right;
     min-height: 30px;
     min-width: 30px;
+}
+
+.item-3 img{
+    float: right;
+}
+
+
+.underheader{
+    display: flex;
+    justify-content: center;
+}
+
+.underheader a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+
+.pesquisa{
+    background-color: rgb(222, 222, 222);
+    border-radius: 15px;
+    padding: 12px;
+    width: 200px;
+    text-align: center;
+    margin: 15px 0px;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.212)
+}
+
+
+
+.destino{
+    color: rgba(0, 0, 0, 0.508);
 }
