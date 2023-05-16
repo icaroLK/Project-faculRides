@@ -96,3 +96,15 @@ body{
 .botoes{
     text-align: center;
 }
+
+.qrcode{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+.qrcode_container{
+    
+    position: absolute;
+    display: flex;
+    pointer-events: none;
+}

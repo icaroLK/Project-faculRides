@@ -326,3 +326,15 @@ picture img{
     border: 2px solid black;
 }
 
+
+.qrcode{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+.qrcode_container{
+    
+    position: absolute;
+    display: flex;
+    pointer-events: none;
+}
