@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Barra de Progresso</title>
+    <style>
+        /* Estilos CSS para a barra de progresso */
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background-color: lightgray;
+            margin-bottom: 10px;
+        }
+
+        .progress-bar-fill {
+            height: 100%;
+            background-color: blue;
+            width: 0;
+            transition: width 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="progress-bar">
+        <div class="progress-bar-fill" id="progressFill"></div>
+    </div>
+
+    <button onclick="changePage(1)">Página 1</button>
+    <button onclick="changePage(2)">Página 2</button>
+    <button onclick="changePage(3)">Página 3</button>
+
+    <script>
+        function changePage(pageNumber) {
+            // Atualizar a largura da barra de progresso com base na página atual
+            var progressFill = document.getElementById('progressFill');
+            var pageWidth = (pageNumber - 1) * 33.33; // Divide igualmente em 3 páginas
+            progressFill.style.width = pageWidth + '%';
+
+            // Aqui você pode adicionar o código para alterar a página
+            // ...
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaculRides</title>
+    <link rel="stylesheet" href="page2.css">
+    <style>
+
+.page{
+    display: block;
+}
+
+    </style>
+</head>
+<body>
+<!-- --------------------SEGUNDA PAGINA ------->
+<div class="page" id="page2">
+  <section class="dois">
+      
+      <h1>Criar conta</h1>
+      
+      <form action="" autocomplete="off">
+          <section>
+              <label for="inome">Nome</label>
+              <br>
+              <input type="text" name="nome" id="inome" placeholder="Insira seu nome completo">
+              <br>
+          </section>
+          <section>
+              <label for="inascimento">Data de nascimento</label>
+              <br>
+              <input type="text" name="nascimento" id="inascimento" placeholder="dd/mm/aaaa">
+              <br>
+          </section>
+          <section>
+              <label for="icpf">CPF</label>
+              <br>
+              <input type="text" name="cpf" id="icpf" placeholder="000.000.000-00">
+              <br>
+          </section>
+          <section>
+              <label for="isexo">Sexo</label>
+              <br>
+              <input type="text" name="sexo" id="isexo" placeholder="Selecione">
+              <br>
+          </section>
+          <section>
+              <label for="iBloco">Bloco</label>
+              <br>
+              <input type="text" name="Bloco" id="iBloco" placeholder="Selecione">
+              <br>
+          </section>
+          <section>
+              <label for="iCurso">Curso</label>
+              <br>
+              <input type="text" name="Curso" id="iCurso" placeholder="Selecione">
+              <br>
+          </section>
+          <section>
+              <label for="iPeríodo">Período</label>
+              <br>
+              <input type="text" name="Período" id="iPeríodo" placeholder="Selecione">
+              <br>
+          </section>
+          <section>
+              <label for="iTurno">Turno</label>
+              <br>
+              <input type="text" name="Turno" id="iTurno" placeholder="Selecione">
+              <br>
+          </section>
+          <input class="continuar" type="button" value="Continuar" onclick="progressBar(2, 4)">
+      </form>
+      <div class="progress-bar">
+          <div class="progress-bar-fill" id="progressFill"></div>
+      </div>
+  </section>
+
+
+</div>
+    <script src="page2.js"></script>
+</body>
+</html>

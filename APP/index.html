@@ -4,17 +4,151 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oi</title>
-    <style>
-        
-
-
-    </style>
+    <title>FaculRides</title>
+    <link rel="stylesheet" href="styles/01logo.css">
 </head>
 <body>
-    <h1>oi</h1>
-    <p>oiioeoif</p>
+<div class="page active" id="page1" onclick="GoToPage(2);progressBar(1, 4)">
+    <main>
+        <p class="logo"></p>
+    </main>
+</div>
 
+<!-- --------------------SEGUNDA PAGINA ------->
+
+<div class="page" id="page2">
+<section class="dois">
     
+    <h1>Criar conta</h1>
+    
+    <form action="" autocomplete="off">
+        <section>
+            <label for="inome">Nome</label>
+            <br>
+            <input type="text" name="nome" id="inome" placeholder="Insira seu nome completo">
+            <br>
+        </section>
+        <section>
+            <label for="inascimento">Data de nascimento</label>
+            <br>
+            <input type="text" name="nascimento" id="inascimento" placeholder="dd/mm/aaaa">
+            <br>
+        </section>
+        <section>
+            <label for="icpf">CPF</label>
+            <br>
+            <input type="text" name="cpf" id="icpf" placeholder="000.000.000-00">
+            <br>
+        </section>
+        <section>
+            <label for="isexo">Sexo</label>
+            <br>
+            <input type="text" name="sexo" id="isexo" placeholder="Selecione">
+            <br>
+        </section>
+        <section>
+            <label for="iBloco">Bloco</label>
+            <br>
+            <input type="text" name="Bloco" id="iBloco" placeholder="Selecione">
+            <br>
+        </section>
+        <section>
+            <label for="iCurso">Curso</label>
+            <br>
+            <input type="text" name="Curso" id="iCurso" placeholder="Selecione">
+            <br>
+        </section>
+        <section>
+            <label for="iPeríodo">Período</label>
+            <br>
+            <input type="text" name="Período" id="iPeríodo" placeholder="Selecione">
+            <br>
+        </section>
+        <section>
+            <label for="iTurno">Turno</label>
+            <br>
+            <input type="text" name="Turno" id="iTurno" placeholder="Selecione">
+            <br>
+        </section>
+        <input class="continuar" type="button" value="Continuar" onclick="GoToPage(3); progressBar(2, 4)">
+    </form>
+    <div class="progress-bar">
+        <div class="progress-bar-fill" id="progressFill1"></div>
+    </div>
+</section>
+
+
+</div>
+    
+<!-- --------------------TERCEIRA PAGINA ------->
+
+<div class="page" id="page3">
+<section class="tres">
+
+    <nav onclick="GoToPage(2); progressBar(1, 4)"></nav>
+    <h1>Criar conta</h1>
+
+    <div class="bordacont">
+        <p class="borda"></p>
+    </div>
+
+
+    <input class="continuar" type="button" value="Continuar" onclick=" GoToPage(4); progressBar(3, 4)">
+
+
+    <div class="progress-bar">
+        <div class="progress-bar-fill" id="progressFill2"></div>
+    </div>
+
+</section>
+
+</div>
+
+<!-- --------------------QUARTA PAGINA ------->
+
+    <div class="page" id="page4">
+        <section class="quatro">
+        
+            <nav onclick="GoToPage(3); progressBar(2, 4)"></nav>
+            <h1>Confirmação</h1>
+        
+        
+            <form action="">
+                <label for="icod">Insira o código enviado ao seu e-mail <span class="iconajuda" onclick="onoffajuda()">(�)</span></label>
+                <br>
+
+                <div class="ajuda" id="ajuda">
+                    <p>Para acessar o e-mail institucional abra o Outlook <br> • No login insira nome.sobrenome@pucpr.edu.br <br>• Insira a mesma senha do WebAluno.</p>
+                </div>
+
+                <input type="text" name="cod" id="icod" maxlength="1">
+                <input type="text" name="cod" id="icod" maxlength="1">
+                <input type="text" name="cod" id="icod" maxlength="1">
+                <input type="text" name="cod" id="icod" maxlength="1">
+                <input type="text" name="cod" id="icod" maxlength="1">
+            </form>
+        
+        
+            <p class="reenv">Reenviar código</p>
+            
+        
+            
+        
+        
+        
+            <input class="continuar" type="button" value="Continuar" onclick="progressBar(4, 4)">
+        
+        
+            <div class="progress-bar">
+                <div class="progress-bar-fill" id="progressFill3"></div>
+            </div>
+        
+        </section>
+        </div>
+    
+
+
+
+    <script src="javas/script.js"></script>
 </body>
 </html>
