@@ -25,49 +25,49 @@
         <section>
             <label for="inome">Nome</label>
             <br>
-            <input type="text" name="nome" id="inome" placeholder="Insira seu nome completo">
+            <input type="text" name="nome" id="inome" placeholder="Insira seu nome completo" class="inputadas">
             <br>
         </section>
         <section>
             <label for="inascimento">Data de nascimento</label>
             <br>
-            <input type="text" name="nascimento" id="inascimento" placeholder="dd/mm/aaaa">
+            <input type="text" name="nascimento" id="inascimento" placeholder="dd/mm/aaaa" class="inputadas">
             <br>
         </section>
         <section>
             <label for="icpf">CPF</label>
             <br>
-            <input type="text" name="cpf" id="icpf" placeholder="000.000.000-00">
+            <input type="text" name="cpf" id="icpf" placeholder="000.000.000-00" class="inputadas">
             <br>
         </section>
         <section>
             <label for="isexo">Sexo</label>
             <br>
-            <input type="text" name="sexo" id="isexo" placeholder="Selecione">
+            <input type="text" name="sexo" id="isexo" placeholder="Selecione" class="inputadas">
             <br>
         </section>
         <section>
             <label for="iBloco">Bloco</label>
             <br>
-            <input type="text" name="Bloco" id="iBloco" placeholder="Selecione">
+            <input type="text" name="Bloco" id="iBloco" placeholder="Selecione" class="inputadas">
             <br>
         </section>
         <section>
             <label for="iCurso">Curso</label>
             <br>
-            <input type="text" name="Curso" id="iCurso" placeholder="Selecione">
+            <input type="text" name="Curso" id="iCurso" placeholder="Selecione" class="inputadas">
             <br>
         </section>
         <section>
             <label for="iPeríodo">Período</label>
             <br>
-            <input type="text" name="Período" id="iPeríodo" placeholder="Selecione">
+            <input type="text" name="Período" id="iPeríodo" placeholder="Selecione" class="inputadas">
             <br>
         </section>
         <section>
             <label for="iTurno">Turno</label>
             <br>
-            <input type="text" name="Turno" id="iTurno" placeholder="Selecione">
+            <input type="text" name="Turno" id="iTurno" placeholder="Selecione" class="inputadas">
             <br>
         </section>
         <input class="continuar" type="button" value="Continuar" onclick="GoToPage(3); progressBar(2, 4)">
@@ -93,7 +93,7 @@
     </div>
 
 
-    <input class="continuar" type="button" value="Continuar" onclick=" GoToPage(4); progressBar(3, 4)">
+    <div class="containerconti"><input class="continuar" type="button" value="Continuar" onclick=" GoToPage(4); progressBar(3, 4)"></div>
 
 
     <div class="progress-bar">
@@ -114,30 +114,29 @@
         
         
             <form action="">
-                <label for="icod">Insira o código enviado ao seu e-mail <span class="iconajuda" onclick="onoffajuda()">(�)</span></label>
+                <label for="icod">Insira o código enviado ao seu e-mail </label><span class="iconajuda" onclick="onoffajuda()">(�)</span>
                 <br>
 
                 <div class="ajuda" id="ajuda">
                     <p>Para acessar o e-mail institucional abra o Outlook <br> • No login insira nome.sobrenome@pucpr.edu.br <br>• Insira a mesma senha do WebAluno.</p>
                 </div>
 
-                <input type="text" name="cod" id="icod" maxlength="1">
-                <input type="text" name="cod" id="icod" maxlength="1">
-                <input type="text" name="cod" id="icod" maxlength="1">
-                <input type="text" name="cod" id="icod" maxlength="1">
-                <input type="text" name="cod" id="icod" maxlength="1">
+                <input type="text" name="cod" id="icod1" class="cod" maxlength="1" onkeyup="jumpToNextInput(1)" autocomplete="off">
+                <input type="text" name="cod" id="icod2" class="cod" maxlength="1" onkeyup="jumpToNextInput(2)" autocomplete="off">
+                <input type="text" name="cod" id="icod3" class="cod" maxlength="1" onkeyup="jumpToNextInput(3)" autocomplete="off">
+                <input type="text" name="cod" id="icod4" class="cod" maxlength="1" onkeyup="jumpToNextInput(4)" autocomplete="off">
+                <input type="text" name="cod" id="icod5" class="cod" maxlength="1" onkeyup="jumpToNextInput(5)" autocomplete="off">
             </form>
         
         
-            <p class="reenv">Reenviar código</p>
+            <p class="reenv" id="reenv">Reenviar código</p>
             
         
             
         
         
         
-            <input class="continuar" type="button" value="Continuar" onclick="progressBar(4, 4)">
-        
+            <div class="containerconti"><input class="continuar" type="button" value="Continuar" onclick="GoToPage(5);progressBar(4, 4)"></div>
         
             <div class="progress-bar">
                 <div class="progress-bar-fill" id="progressFill3"></div>
@@ -146,6 +145,33 @@
         </section>
         </div>
     
+        <div class="page" id="page5">
+            <section class="cinco">
+            
+                <nav onclick="GoToPage(4); progressBar(3, 4)"></nav>
+                <h1>Criar conta</h1>
+            
+            
+                <form action="">
+                    <label for="icod">Crie uma senha</label>
+                    <br>
+                    <input type="text" name="cod" id="icod" class="senhaa" autocomplete="off" placeholder="*********">
+                </form>
+            
+            
+                <div class="containerconti">
+                    <input class="continuar" type="button" value="Continuar" onclick="progressBar(5, 4)">
+                </div>
+            
+            
+                
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" id="progressFill4"></div>
+                    </div>
+                
+            
+            </section>
+            </div>
 
 
 
