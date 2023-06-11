@@ -15,7 +15,6 @@
 </div>
 
 <!-- --------------------SEGUNDA PAGINA ------->
-
 <div class="page" id="page2">
 <section class="dois">
     
@@ -79,9 +78,7 @@
 
 
 </div>
-    
 <!-- --------------------TERCEIRA PAGINA ------->
-
 <div class="page" id="page3">
 <section class="tres">
 
@@ -103,9 +100,7 @@
 </section>
 
 </div>
-
-<!-- --------------------QUARTA PAGINA ------->
-
+<!-- --------------------QUARTA PAGINA ------------------------------------>
 <div class="page" id="page4">
         <section class="quatro">
         
@@ -144,8 +139,8 @@
         
         </section>
 </div>
-    
-        <div class="page" id="page5">
+<!-- --------------------QUINTA PAGINA ------------------------------------>
+<div class="page" id="page5">
             <section class="cinco">
             
                 <nav onclick="GoToPage(4); progressBar(3, 3, 4)" class="nava"></nav>
@@ -155,7 +150,7 @@
                 <form action="">
                     <label for="icod">Crie uma senha</label>
                     <br>
-                    <input type="text" name="cod" id="icod" class="senhaa" autocomplete="off" placeholder="*********">
+                    <input type="password" name="cod" id="icod" class="senhaa" autocomplete="off" placeholder="*********">
                 </form>
             
             
@@ -169,9 +164,9 @@
                 
             
     </section>
-    </div>
-
-    <div class="page" id="page6">
+</div>
+<!-- --------------------SEXTA PAGINA ------------------------------------>
+<div class="page" id="page6">
         <section class="seis">
         
 
@@ -181,7 +176,7 @@
     
                 <input class="botao pegarcarona" type="button" value="Quero pegar carona">
                 <br>
-                <input class="botao darcarona" type="button" value="Quero dar carona">
+                <input class="botao darcarona" type="button" value="Quero dar carona" onclick="GoToPage(7)">
             </div>
     
                 <div class="progress-bar">
@@ -189,8 +184,162 @@
                 </div>
             
         </section>
-        </div>
+</div>
+<!-- --------------------SETIMA PAGINA ------------------------------------>
+<div class="page" id="page7">
+            <section class="sete">
+            
+                <nav onclick="GoToPage(6)" class="nava"></nav>
+                <h1>Cadastro de motorista</h1>
+            
+                <form action="" autocomplete="off">
+                    <section>
+                        <label for="inome">Marca<p class="publicint"></p></label>
+                        <br>
+                        <input type="text" name="nome" id="inome" placeholder="Marca do carro">
+                        <br>
+                    </section>
+                    <section>
+                        <label for="inascimento">Modelo<p class="publicint"></p></label>
+                        <br>
+                        <input type="text" name="nascimento" id="inascimento" placeholder="Modelo do carro">
+                        <br>
+                    </section>
+                    <section>
+                        <label for="icpf">Placa<p class="publicint"></p></label>
+                        <br>
+                        <input type="text" name="cpf" id="icpf" placeholder="XXXXXXX">
+                        <br>
+                    </section>
+                    <section>
+                        <label for="isexo">Cor<p class="publicint"></p></label>
+                        <br>
+                        <input type="text" name="sexo" id="isexo" placeholder="Cor do carro">
+                        <br>
+                    </section>
+                    <section>
+                        <label for="iBloco">Ano<p class="publicint"></p></label>
+                        <br>
+                        <input type="text" name="Bloco" id="iBloco" placeholder="aaaa">
+                        <br>
+                    </section>
+                    <section>
+                        <label for="iCurso">N° de registro da CNH <p class="notpublicint"></p></label>
+                        <br>
+                        <input type="text" name="Curso" id="iCurso" placeholder="00000000000">
+                        <br>
+                        <p class="public">
+                            Essas informações serão públicas
+                        </p>
+        
+                        
+        
+                    </section>
+                   
+                </form>
+        
+                <div class="containerconti"><input class="continuar" type="button" value="Continuar" onclick="GoToPage(8)"></div>
+        
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" id="progressFill4"></div>
+                    </div>
+                
+            </section>
+</div>
+<!-- --------------------OITAVA PAGINA ------------------------------------>
+<div class="page" id="page8">
+            <section class="oito">
+            
+                <nav class="nava" onclick="GoToPage(7)"></nav>
+                <h1>Cadastro</h1>
+            
+                <div class="bordacont">
+                    <p class="borda"></p>
+                </div>
+            
+            
+                <input class="continuar" type="button" value="Continuar" onclick="GoToPage(9)">
+            
+            
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" id="progressFill3"></div>
+                </div>
 
+            </section>
+</div>
+<!-- --------------------NONA PAGINA ------------------------------------>
+<div class="page" id="page9">
+            <section class="nove">
+            
+                <nav onclick="GoToPage(8)" class="nava"></nav>
+                <h1>Criar perfil</h1>
+
+                <div class="perfil">
+                    <div></div>
+                    <p></p>
+
+                </div>
+
+
+            
+                <form action="" autocomplete="off">
+                    <div>
+                        <p class="labell">Nome</p>
+                        <section class="lock">
+                            <p class="icon"></p><p>Felipe Castro Ricci</p>
+                        </section>
+                    </div>
+
+                    <div>
+                        <p class="labell">Idade</p>
+                        <section class="lock">
+                            <p class="icon"></p><p>20 anos</p>
+                        </section>
+                    </div>
+
+                    <div>
+                        <p class="labell">Sexo</p>
+                        <section class="lock">
+                            <p class="icon"></p><p>Masculino</p>
+                        </section>
+                    </div>
+
+
+                    <section>
+                        <label for="ibloco">Bloco<p class="publicint"></p></label>
+                        <br>
+                        <input type="text" name="bloco" id="ibloco" placeholder="Azul">
+                        <br>
+                    </section>
+                    <section>
+                        <label for="icurso">Curso<p class="publicint"></p></label>
+                        <br>
+                        <input type="text" name="curso" id="icurso" placeholder="Design">
+                        <br>
+                    </section>
+
+                    <section>
+                        <label for="iperiodo">Período <p class="notpublicint"></p></label>
+                        <br>
+                        <input type="text" name="periodo" id="iperiodo" placeholder="5° período">
+                        <br>
+                    </section>
+                    <section>
+                        <label for="iturno">Turno<p class="publicint"></p></label>
+                        <br>
+                        <input type="text" name="turno" id="iturno" placeholder="Manhã">
+                        <br>
+                    </section>
+                </form>
+
+                <div class="containerconti"><input class="continuar" type="button" value="Continuar"></div>
+
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" id="progressFill4"></div>
+                    </div>
+                
+            </section>
+</div>
 
 
     <script src="javas/script.js"></script>

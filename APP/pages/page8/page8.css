@@ -127,83 +127,29 @@ main{
 
 
 
-
-
-
-
-
-
-.sete{
+.oito{
     display: flex;
     margin: auto;
     flex-direction: column;
     align-items: center;
-}    
+}
 
-.sete h1, nav{
+.oito h1, nav{
     margin-top: 3vh;
     margin-bottom: 3vh;
-}    
+}
 
 
-.sete form{
-    font-size: 25px;
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.borda{
+    /* background-color: aqua; */
+    border: 1px solid black;
+    border-radius: 40px;
+    height: 80vw;
+    max-height: 600px;
+    width: 80vw;
+    max-width: 600px;
+    /* background: url(../../images/download.png) no-repeat;
+    background-size: contain; */
+    margin: 5vh auto;
     
-    
-    
-}
-
-
-.sete label{
-    font-weight: bold;
-    font-size: 12px;
-}
-
-.sete form input{
-    padding: 14px 13px;
-    margin-top: 3px;
-    border-radius: 13px;
-    background-color: #E9E9ED;
-    border: 0px;
-    width: 70vw;
-    /* width: 280px; */
-    /* margin: 0px 20%; */
-}
-
-.sete .public{
-    font-size: 13px;
-    background: url(../../images/public.png) no-repeat;
-    background-size: contain;
-    height: 19px;
-    width: 280px;
-    margin-top: 15px;
-    padding-left: 35px;
-    padding-top: 5px;
-    
-}
-
-.sete .publicint{
-    position: absolute;
-    font-size: 13px;
-    background: url(../../images/public.png) no-repeat;
-    background-size: contain;
-    background-position: right;
-    height: 26px;
-    width: calc(70vw + 13px);
-    margin-top: 12px;
-}
-
-.sete .notpublicint{
-    position: absolute;
-    font-size: 13px;
-    background: url(../../images/notpublic.png) no-repeat;
-    background-size: contain;
-    background-position: right;
-    height: 26px;
-    width: calc(70vw + 13px);
-    margin-top: 12px;
 }
