@@ -11,17 +11,27 @@ function GoToPage(go_to){
 }
 
 
-function progressBar(go_to, qtd){
-    var progressFillx = document.getElementById("progressFill"+(go_to));
-    if(go_to==1){
+
+
+
+function progressBar(barra ,nivelbarra, finalbarra){
+    var progressFillx = document.getElementById("progressFill"+(barra));
+    if(nivelbarra==1){
         var pageWidth = 1;
     progressFillx.style.width = pageWidth + '%';
     }else{
 
-        var pageWidth = (go_to-1) * (100/qtd);
+        var pageWidth = (nivelbarra-1) * (100/(finalbarra-1));
         progressFillx.style.width = pageWidth + '%';
     }
 }
+
+
+
+
+
+
+
 
 
 var lig = false;

@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    
+}    
+
+
+.nava{
+    height: 40px;
+    width: 30px;
+    background: url(../images/back.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin-right: 70vw;
+    /* transform: translate(-100%, +0%); */
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+
+
+.progress-bar {
+    
+    width: 70vw;
+    height: 7px;
+    border-radius: 5px;
+    background-color: lightgray;
+    margin: 5vh 0px;
+    position: absolute;
+    margin-top: 94vh;
+}
+
+
+.progress-bar-fill {
+    height: 100%;
+    border-radius: 5px;
+    background-color: #006FFD;
+    width: 0;
+    max-width: 100%;
+    transition: width 0.3s ease-in-out;
+}
+
+
+/* 
+.containerconti{
+    position: absolute;
+    margin-top: calc(100vh - 35%);
+    
+}
+
+.continuar{
+
+    padding: 12px 16px;
+    border-radius: 13px;
+    border: 0px;
+    height: 48px;
+    width: 70vw;
+    max-width: 600px;
+
+
+    margin: 0px auto;
+    margin-top: 15px;
+    background-color:#747475;
+    color: white;
+    font-weight: bold;
+    &:hover{
+        background-color: #006FFd;
+        cursor: pointer;
+    }
+} */
+
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+
+
+
+
+
+
+
+
+
+.seis{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}    
+
+.seis h1, nav{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}    
+
+
+.containerbots{
+    margin-top: 20vh;
+}
+
+.botao{
+    font-size: 18px;
+    padding: 12px 16px;
+    border-radius: 13px;
+    border: 0px;
+    height: 48px;
+    width: 70vw;
+    max-width: 400px;
+
+
+    margin: 0px auto;
+    margin-top: 4vh;
+    background-color:#006FFd;
+    color: white;
+ 
+    &:hover{
+        background-color: #0552b6;
+        cursor: pointer;
+    }
+}
