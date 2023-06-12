@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    
+}    
+
+
+.nava{
+    height: 40px;
+    width: 30px;
+    background: url(../../images/back.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin-right: 70vw;
+    /* transform: translate(-100%, +0%); */
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.containerconti{
+    position: absolute;
+    /* margin-top: calc(100vh - 187px); */
+    margin-top: calc(100vh - 35%);
+    
+}
+
+.continuar{
+
+    padding: 12px 16px;
+    border-radius: 13px;
+    border: 0px;
+    height: 48px;
+    width: 70vw;
+    max-width: 600px;
+
+
+    margin: 0px auto;
+    margin-top: 15px;
+    background-color:#747475;
+    color: white;
+    font-weight: bold;
+    &:hover{
+        background-color: #006FFd;
+        cursor: pointer;
+    }
+}
+
+
+
+
+.progress-bar {
+    
+    width: 70vw;
+    height: 7px;
+    border-radius: 5px;
+    background-color: lightgray;
+    margin: 5vh 0px;
+    position: absolute;
+    margin-top: 94vh;
+}
+
+
+.progress-bar-fill {
+    height: 100%;
+    border-radius: 5px;
+    background-color: #006FFD;
+    width: 0;
+    max-width: 100%;
+    transition: width 0.3s ease-in-out;
+}
+
+
+
+
+/* 
+.containerconti{
+    position: absolute;
+    margin-top: calc(100vh - 35%);
+    
+}
+
+.continuar{
+
+    padding: 12px 16px;
+    border-radius: 13px;
+    border: 0px;
+    height: 48px;
+    width: 70vw;
+    max-width: 600px;
+
+
+    margin: 0px auto;
+    margin-top: 15px;
+    background-color:#747475;
+    color: white;
+    font-weight: bold;
+    &:hover{
+        background-color: #006FFd;
+        cursor: pointer;
+    }
+} */
+
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+
+
+
+.treze{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}    
+
+.treze h1, nav{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}    
+
+.treze .cartao{
+    margin: 10px 20px;
+    min-height: 220px;
+
+    height: 20vh;
+    width: 80vw;
+
+    max-height: 290px;
+    max-width: 340px;
+
+    border-radius: 30px;
+    background-image: linear-gradient(2.4rad, #050F2B, #062169);
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.815);
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    font-family: monospace;
+
+}
+
+
+
+
+.treze .chip{
+    height: 40px;
+    width: 55px;
+    background-color: rgb(223, 196, 45);
+    border-radius: 10px;
+    align-self: flex-start;
+}
+.treze .cartao p{
+    font-family: monospace;
+    font-size: 16px;
+}
+
+
+.treze .data{
+  
+    align-self: flex-start;
+}
+
+.treze form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+    
+}
+
+
+.treze form .inputada{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.treze label{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: -5px;
+
+}
+
+.treze input{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 10px 12px;
+    border-radius: 13px;
+    background-color: #E9E9ED;
+    border: 0px;
+    width: 70vw;
+    /* width: 280px; */
+    /* margin: 0px 20%; */
+}
+
