@@ -950,3 +950,83 @@ margin: 10px;
 ::placeholder{
     color: black;
 }
+
+/* DECIMA SEGUNDA PAGINA ----------------------------------------------------------------------------------------------------- */
+
+.doze{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}    
+
+.doze h1, nav{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}    
+
+
+.doze form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.doze .opcao{
+    margin: 10px 0px;
+    padding: 13px;
+    width: 80vw;
+    height: fit-content;
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.doze .botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.doze .opcao label{
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.doze .card{
+
+    margin-top: 10px;
+    box-sizing: border-box;
+    height: 70px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card.um{
+    background-color: #F7C9BC;
+}
+
+.card.doiss{
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.doze .card .senhaa{
+    padding-top: 6px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.466);
+}
+
+.doze .opcao .add{
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 15px 0px 5px 0px;
+}
+
+.doze .checkk{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 0px 5px 0px;
+}

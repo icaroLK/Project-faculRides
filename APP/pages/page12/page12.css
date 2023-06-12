@@ -140,7 +140,7 @@ main{
 }    
 
 
-form{
+.doze form{
     display: flex;
     flex-direction: column;
 
@@ -180,24 +180,24 @@ form{
     background-color: #F7C9BC;
 }
 
-.card.dois{
+.card .doiss{
     border: 0.5px solid rgba(0, 0, 0, 0.5);
 }
 
-.doze .card .senha{
+.doze .card .senhaa{
     padding-top: 6px;
     font-size: 13px;
     color: rgba(0, 0, 0, 0.466);
 }
 
-.opcao .add{
+.doze .opcao .add{
     text-align: center;
     font-weight: bold;
     font-size: 13px;
     padding: 15px 0px 5px 0px;
 }
 
-.checkk{
+.doze .checkk{
     display: flex;
     flex-direction: row;
     align-items: center;
