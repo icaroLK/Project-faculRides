@@ -123,6 +123,17 @@ main{
 }
 
 
+#page1 .aviso{
+    position: absolute;
+    transform: translateY(+30vh);
+    color: #01051346;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
 
 .page{
     display: none;
