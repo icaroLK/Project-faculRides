@@ -1,0 +1,286 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    
+}    
+
+
+.nava{
+    height: 40px;
+    width: 30px;
+    background: url(../../images/back.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin-right: 70vw;
+    /* transform: translate(-100%, +0%); */
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.containerconti{
+    position: absolute;
+    /* margin-top: calc(100vh - 187px); */
+    margin-top: calc(100vh - 35%);
+    
+}
+
+.continuar{
+
+    padding: 12px 16px;
+    border-radius: 13px;
+    border: 0px;
+    height: 48px;
+    width: 70vw;
+    max-width: 600px;
+
+
+    margin: 0px auto;
+    margin-top: 15px;
+    background-color:#747475;
+    color: white;
+    font-weight: bold;
+    &:hover{
+        background-color: #006FFd;
+        cursor: pointer;
+    }
+}
+
+
+
+
+.progress-bar {
+    
+    width: 70vw;
+    height: 7px;
+    border-radius: 5px;
+    background-color: lightgray;
+    margin: 5vh 0px;
+    position: absolute;
+    margin-top: 94vh;
+}
+
+
+.progress-bar-fill {
+    height: 100%;
+    border-radius: 5px;
+    background-color: #006FFD;
+    width: 0;
+    max-width: 100%;
+    transition: width 0.3s ease-in-out;
+}
+
+
+
+
+/* 
+.containerconti{
+    position: absolute;
+    margin-top: calc(100vh - 35%);
+    
+}
+
+.continuar{
+
+    padding: 12px 16px;
+    border-radius: 13px;
+    border: 0px;
+    height: 48px;
+    width: 70vw;
+    max-width: 600px;
+
+
+    margin: 0px auto;
+    margin-top: 15px;
+    background-color:#747475;
+    color: white;
+    font-weight: bold;
+    &:hover{
+        background-color: #006FFd;
+        cursor: pointer;
+    }
+} */
+
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+
+
+
+
+
+
+
+
+
+.onze{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}    
+
+.onze h1, nav{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}    
+
+
+
+.onze .perfil div{
+    height: 80px;
+    width: 80px;
+    background-color: #74747575;
+    border-radius: 50%;
+}
+
+
+.onze .perfil p{
+    margin: auto;
+    background: url(../../images/pencil.png) no-repeat;
+    background-size: contain;
+    background-position: right right;
+    height: 25px;
+    width: 25px;
+}
+
+
+
+
+
+
+.onze form{
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+    
+}
+
+
+.onze label, .labell{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+
+.onze form input{
+    padding: 14px 13px;
+    margin-top: 3px;
+    border-radius: 13px;
+    background-color: #E9E9ED;
+    border: 0px;
+    width: 70vw;
+    /* width: 280px; */
+    /* margin: 0px 20%; */
+}
+
+.onze .public{
+    font-size: 13px;
+    background: url(../../images/public.png) no-repeat;
+    background-size: contain;
+    height: 19px;
+    width: 280px;
+    margin-top: 15px;
+    padding-left: 35px;
+    padding-top: 5px;
+    
+}
+
+.onze .publicint{
+    position: absolute;
+    font-size: 13px;
+    background: url(../../images/publickdown.png) no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 26px;
+    width: calc(70vw + 13px);
+    margin-top: 12px;
+}
+
+.onze .notpublicint{
+    position: absolute;
+    font-size: 13px;
+    background: url(../../images/notpublicdown.png) no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 26px;
+    width: calc(70vw + 13px);
+    margin-top: 12px;
+}
+
+.onze .lockicon{
+    position: absolute;
+    font-size: 13px;
+    background: url(../../images/lock.png) no-repeat;
+    background-size: contain;
+    background-position: left;
+    height: 26px;
+    width: calc(70vw + 13px);
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.onze .lock{
+
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.233);
+
+
+    padding: 14px 13px;
+    margin-top: 3px;
+    border-radius: 13px;
+    background-color: #E9E9ED;
+    border: 0px;
+    width: 70vw;
+
+}
+
+.onze .icon{
+    position: absolute;
+    background: url(../../images/lock.png) no-repeat;
+    background-size: contain;
+    height: 27px;
+    width: 27px;
+    margin: -7px 0px 3px -5px;
+
+
+    /* background-position: left; */
+    /* width: calc(70vw + 13px); */
+    /* margin-top: 12px;
+    margin-left: 10px; */
+}
+
+
+.lock p{
+    margin-left: 27px;
+}
+
+
+::placeholder{
+    color: black;
+}
