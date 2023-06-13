@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FaculRides</title>
     <link rel="stylesheet" href="styles/01logo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
 <div class="page active" id="page1" onclick="GoToPage(2);progressBar(1, 1, 4)">
@@ -556,34 +557,71 @@
         <form action="">
             <div class="inputada">
                 <label for="titular">Titular do cartão</label>
-                <input type="text" name="titular" id="titular" placeholder="Felipe Castro Ricci">
+                <input type="text" name="titular" id="titular" placeholder="Felipe Castro Ricci" class="iiinput">
             </div>
 
             <div class="inputada">
                 <label for="numero">Número do cartão</label>
-                <input type="text" name="numero" id="numero" placeholder="**** **** **** 8901">
+                <input type="text" name="numero" id="numero" placeholder="**** **** **** 8901" class="iiinput">
             </div>
 
             <div class="inputada">
                 <label for="Validade">Validade</label>
-                <input type="text" name="Validade" id="Validade" placeholder="11/22">
+                <input type="text" name="Validade" id="Validade" placeholder="11/22" class="iiinput">
             </div>
 
             <div class="inputada">
                 <label for="segurança">Código de segurança</label>
-                <input type="text" name="segurança" id="segurança" placeholder="***">
+                <input type="text" name="segurança" id="segurança" placeholder="***" class="iiinput">
             </div>
         </form>
 
-        <div class="containerconti"><input class="continuar" type="button" value="Continuar"></div>
+        <div class="containerconti"><input class="continuar" type="button" value="Continuar" onclick="GoToPage(14)"></div>
 
             <div class="progress-bar">
                 <div class="progress-bar-fill" id="progressFill4"></div>
             </div>
         
     </section>
-    </div>
+</div>
+<!-- --------------------DECIMA QUARTA PAGINA ------------------------------------>
+<div class="page" id="page14">
+    <section class="quatorze">
+    
+        <h1>Reservar carona</h1>
 
+        <div class="barraPesquisa" id="barraPesquisa">
+            <div class="icone"><span class="material-symbols-outlined">
+                search
+                </span></div><p>Seu destino</p>
+
+        </div>
+
+        <div class="backlogo"></div>
+
+
+
+
+        <div class="mainnav" id="mainnav">
+
+            <div class="mainhome mainicons">
+
+            </div>
+            <div class="mainchat mainicons">
+
+            </div>
+            <div class="mainperfil mainicons">
+
+            </div>
+
+        </div>
+        
+
+        
+
+        
+    </section>
+    </div>
 
     <script src="javas/script.js"></script>
 </body>
