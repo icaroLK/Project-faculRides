@@ -45,7 +45,7 @@ main{
 .progress-bar-fill {
     height: 100%;
     border-radius: 5px;
-    background-color: #006FFD;
+    background-color: #050F2B;
     width: 0;
     max-width: 100%;
     transition: width 0.3s ease-in-out;
@@ -76,7 +76,7 @@ main{
     color: white;
     font-weight: bold;
     &:hover{
-        background-color: #006FFd;
+        background-color: #050F2B;
         cursor: pointer;
     }
 }
@@ -105,13 +105,13 @@ main{
 
 
 .logo{
-    background: url(../images/perfil.png) no-repeat;
+    background: url(../images/logo.png) no-repeat;
     background-size: contain;
     
     
 
-    height: 400px;
-    width: 200px;
+    height: 150px;
+    width: 65vw;
 }
 
 
@@ -121,6 +121,17 @@ main{
     height: 50px;
     width: 50px;
 }
+
+
+#page1 .aviso{
+    position: absolute;
+    transform: translateY(+30vh);
+    color: #01051346;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
 
 
 
@@ -235,7 +246,7 @@ align-items: center;
     max-height: 600px;
     width: 80vw;
     max-width: 600px;
-    /* background: url(../../images/download.png) no-repeat;
+    /* background: url(../images/download.png) no-repeat;
     background-size: contain; */
     margin: 5vh auto;
     
@@ -297,7 +308,7 @@ align-items: center;
     margin-top: calc(100vh - 400px);
     margin-bottom: 10px;
     font-weight: bold;
-    color: #006FFD;
+    color: #050F2B;
     &:hover{
         cursor: pointer;
     }
@@ -393,11 +404,11 @@ align-items: center;
 
     margin: 0px auto;
     margin-top: 4vh;
-    background-color:#006FFd;
+    background-color:#050F2B;
     color: white;
  
     &:hover{
-        background-color: #0552b6;
+        background-color: #010513;
         cursor: pointer;
     }
 }
@@ -506,7 +517,7 @@ align-items: center;
     max-height: 600px;
     width: 80vw;
     max-width: 600px;
-    /* background: url(../../images/download.png) no-repeat;
+    /* background: url(../images/download.png) no-repeat;
     background-size: contain; */
     margin: 5vh auto;
     
@@ -665,3 +676,610 @@ align-items: center;
 ::placeholder{
     color: black;
 }
+
+
+/* PAGINA DEZ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.dez .tit{
+    display: flex;
+    justify-content: left;
+    width: 75vw;
+}
+
+
+.dez{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}    
+
+.dez h1, nav{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}    
+
+
+
+
+.dez .form1{
+margin: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+    width: 75vw;
+}
+
+
+.dez .form1 input, .formada input{
+    margin-right: 12px;
+
+    height: 15px;
+    width: 15px;
+}
+
+.dez .form1 input:checked {
+    background-color: #050F2B;
+  }
+  
+
+
+.dez .form1 label{
+    margin-top: 13px;
+    font-weight: bold;
+}
+
+.dez .form1 .cpf{
+    margin: 15px;
+    width: calc(64vw-15px);
+    height: 50px;
+    background-color: #F7C9BC;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.dez .form1 .cpf .sen{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.459);
+   
+}
+
+.cpf div{
+    position: absolute;
+    width: calc(64vw - 5px);
+    height: 40px;
+  
+    
+}
+
+.dez .check{
+    background: url(../images/check.png) no-repeat;
+    background-size: contain;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+
+}
+
+.dez .form1 .newcpf{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.dez .checkzada{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.dez .checkzada label{
+    font-size: 12px;
+    padding-bottom: 10px;
+    
+
+}
+
+.formada{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+
+    width: 75vw;
+    font-weight: bold;
+}
+
+/* PAGINA ONZE--------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.onze{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}    
+
+.onze h1, nav{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}    
+
+
+
+.onze .perfil div{
+    height: 80px;
+    width: 80px;
+    background-color: #74747575;
+    border-radius: 50%;
+}
+
+
+.onze .perfil p{
+    margin: auto;
+    background: url(../images/pencil.png) no-repeat;
+    background-size: contain;
+    background-position: right right;
+    height: 25px;
+    width: 25px;
+}
+
+
+
+
+
+
+.onze form{
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+    
+}
+
+
+.onze label, .labell{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+
+.onze form input{
+    padding: 14px 13px;
+    margin-top: 3px;
+    border-radius: 13px;
+    background-color: #E9E9ED;
+    border: 0px;
+    width: 70vw;
+    /* width: 280px; */
+    /* margin: 0px 20%; */
+}
+
+.onze .public{
+    font-size: 13px;
+    background: url(../images/public.png) no-repeat;
+    background-size: contain;
+    height: 19px;
+    width: 280px;
+    margin-top: 15px;
+    padding-left: 35px;
+    padding-top: 5px;
+    
+}
+
+.onze .publicint{
+    position: absolute;
+    font-size: 13px;
+    background: url(../images/publickdown.png) no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 26px;
+    width: calc(70vw + 13px);
+    margin-top: 12px;
+}
+
+.onze .notpublicint{
+    position: absolute;
+    font-size: 13px;
+    background: url(../images/notpublicdown.png) no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 26px;
+    width: calc(70vw + 13px);
+    margin-top: 12px;
+}
+
+.onze .lockicon{
+    position: absolute;
+    font-size: 13px;
+    background: url(../images/lock.png) no-repeat;
+    background-size: contain;
+    background-position: left;
+    height: 26px;
+    width: calc(70vw + 13px);
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.onze .lock{
+
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.233);
+
+
+    padding: 14px 13px;
+    margin-top: 3px;
+    border-radius: 13px;
+    background-color: #E9E9ED;
+    border: 0px;
+    width: 70vw;
+
+}
+
+.onze .icon{
+    position: absolute;
+    background: url(../images/lock.png) no-repeat;
+    background-size: contain;
+    height: 27px;
+    width: 27px;
+    margin: -7px 0px 3px -5px;
+
+
+    /* background-position: left; */
+    /* width: calc(70vw + 13px); */
+    /* margin-top: 12px;
+    margin-left: 10px; */
+}
+
+
+.lock p{
+    margin-left: 27px;
+}
+
+
+::placeholder{
+    color: black;
+}
+
+/* DECIMA SEGUNDA PAGINA ----------------------------------------------------------------------------------------------------- */
+
+.doze{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}    
+
+.doze h1, nav{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}    
+
+
+.doze form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.doze .opcao{
+    margin: 10px 0px;
+    padding: 13px;
+    width: 80vw;
+    height: fit-content;
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.doze .botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.doze .opcao label{
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.doze .card{
+
+    margin-top: 10px;
+    box-sizing: border-box;
+    height: 70px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card.um{
+    background-color: #F7C9BC;
+}
+
+.card.doiss{
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.doze .card .senhaa{
+    padding-top: 6px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.466);
+}
+
+.doze .opcao .add{
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 15px 0px 5px 0px;
+}
+
+.doze .checkk{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 0px 5px 0px;
+}
+
+
+/* DECIMA TERCEIRA PAGINA ----------------------------------------------------------------------------------------------------- */
+
+
+.treze{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}    
+
+.treze h1, nav{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}    
+
+.treze .cartao{
+    margin: 10px 20px;
+    min-height: 220px;
+
+    height: 20vh;
+    width: 80vw;
+
+    max-height: 290px;
+    max-width: 340px;
+
+    border-radius: 30px;
+    background-image: linear-gradient(2.4rad, #050F2B, #062169);
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.815);
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    font-family: monospace;
+
+}
+
+
+
+
+.treze .chip{
+    height: 40px;
+    width: 55px;
+    background-color: rgb(223, 196, 45);
+    border-radius: 10px;
+    align-self: flex-start;
+}
+.treze .cartao p{
+    font-family: monospace;
+    font-size: 16px;
+}
+
+
+.treze .data{
+  
+    align-self: flex-start;
+}
+
+.treze form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+    
+}
+
+
+.treze form .inputada{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.treze label{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: -5px;
+
+}
+
+.treze .iiinput{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 10px 12px;
+    border-radius: 13px;
+    background-color: #E9E9ED;
+    border: 0px;
+    width: 70vw;
+    /* width: 280px; */
+    /* margin: 0px 20%; */
+}
+
+/* DECIMA QUARTA PAGINA ----------------------------------------------------------------------------------------------------- */
+
+
+.quatorze{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}    
+
+.quatorze h1{
+    margin: 6vh 0px 2vh 0px;
+    color: #050F2B;
+}    
+
+
+.barraPesquisa{
+    width: 80vw;
+    max-width: 320px;
+    height: 35px;
+    background-color: #E9E9ED;
+    padding: 5px;    
+    border-radius: 24px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+}
+
+.icone{
+    height: 20px;
+    width: 20px;
+    /* background: url(../images/lupa2.png) no-repeat;
+    background-size: contain; */
+    border-radius: 50%;
+    margin: 0px 10px 0px 7px;
+    color: #050F2B;
+    font-weight: bold;
+
+}
+
+.barraPesquisa p{
+    margin-top: 4px;
+    color: #050f2b77;
+}
+
+.backlogo{
+    height: 30px;
+    width: 190px;
+    position: absolute;
+    top: 43vh;
+    background: url(../images/logo.png) no-repeat;
+    background-size: contain;
+    opacity: 0.2;
+}
+
+
+.mainnav{
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(245, 245, 247, 0.95);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.35);
+    border-radius: 45px 45px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.mainicons{
+    height: 30px;
+    width: 30px;
+}
+
+.mainhome{
+    background: url(../images/home.png) no-repeat;
+    background-size: contain;
+}
+
+.mainchat{
+    background: url(../images/chat.png) no-repeat;
+    background-size: contain;
+    height: 25px;
+    width: 25px;
+    opacity: 0.9;
+}
+
+.mainperfil{
+    background: url(../images/perfilicon.png) no-repeat;
+    background-size: contain;
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+/* DECIMA QUINTA PAGINA ----------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+/* DECIMA SEXTA PAGINA ----------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+/* DECIMA SETIMA PAGINA ----------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+/* DECIMA OITAVA PAGINA ----------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+/* DECIMA NONA PAGINA ----------------------------------------------------------------------------------------------------- */

@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FaculRides</title>
     <link rel="stylesheet" href="styles/01logo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
 <div class="page active" id="page1" onclick="GoToPage(2);progressBar(1, 1, 4)">
     <main>
         <p class="logo"></p>
+        <p class="aviso">CLIQUE EM QUAQLUER LUGAR</p>
     </main>
+
+
 </div>
 
 <!-- --------------------SEGUNDA PAGINA ------->
@@ -174,7 +178,7 @@
         
             <div class="containerbots">
     
-                <input class="botao pegarcarona" type="button" value="Quero pegar carona">
+                <input class="botao pegarcarona" type="button" value="Quero pegar carona" onclick="GoToPage(11)">
                 <br>
                 <input class="botao darcarona" type="button" value="Quero dar carona" onclick="GoToPage(7)">
             </div>
@@ -332,7 +336,7 @@
                     </section>
                 </form>
 
-                <div class="containerconti"><input class="continuar" type="button" value="Continuar"></div>
+                <div class="containerconti"><input class="continuar" type="button" value="Continuar" onclick="GoToPage(10)"></div>
 
                     <div class="progress-bar">
                         <div class="progress-bar-fill" id="progressFill4"></div>
@@ -340,7 +344,284 @@
                 
             </section>
 </div>
+<!-- --------------------DECIMA PAGINA ------------------------------------>
+<div class="page" id="page10">
+    <section class="dez">
+    
+        <nav onclick="GoToPage(9)" class="nava"></nav>
+        <h1>Método de pagamento</h1>
 
+        
+
+        <div class="tit">
+            <p>Como deseja receber?</p>
+        </div>
+
+    
+        <form action="" autocomplete="off" class="form1">
+
+            <div>
+                <input type="radio" name="radio" id="radio" value="1" checked>
+                <label for="1">PIX</label>
+            </div>
+
+            <div class="cpf">
+                <p>CPF</p>
+                <p class="sen">xxx.xxx.xxx-10</p>
+                <div>
+                    <p class="check"></p>
+                </div>
+            </div>
+
+
+            <p class="newcpf">+ Adicionar um novo pdf</p>
+
+            <div class="checkzada">
+                <input type="checkbox" name="check" id="check">
+                <label for="check">Desejo receber no mesmo CPF do cadastro</label>
+            </div>
+        </form>
+
+        <form action="" class="formada">
+
+            <input type="radio" name="radio" id="radio" value="2">
+            <label for="2">Tranferência bancária</label>
+
+
+        </form>
+
+        <div class="containerconti"><input class="continuar" type="button" value="Continuar"></div>
+
+            <div class="progress-bar">
+                <div class="progress-bar-fill" id="progressFill4"></div>
+            </div>
+        
+    </section>
+</div>
+<!-- --------------------DECIMA PRIMEIRA PAGINA ------------------------------------>
+<div class="page" id="page11">
+    <section class="onze">
+    
+        <nav onclick="GoToPage(6)" class="nava"></nav>
+        <h1>Criar perfil</h1>
+
+        <div class="perfil">
+            <div></div>
+            <p></p>
+
+        </div>
+
+
+    
+        <form action="" autocomplete="off">
+            <div>
+                <p class="labell">Nome</p>
+                <section class="lock">
+                    <p class="icon"></p><p>Felipe Castro Ricci</p>
+                </section>
+            </div>
+
+            <div>
+                <p class="labell">Idade</p>
+                <section class="lock">
+                    <p class="icon"></p><p>20 anos</p>
+                </section>
+            </div>
+
+            <div>
+                <p class="labell">Sexo</p>
+                <section class="lock">
+                    <p class="icon"></p><p>Masculino</p>
+                </section>
+            </div>
+
+
+            <section>
+                <label for="ibloco">Bloco<p class="publicint"></p></label>
+                <br>
+                <input type="text" name="bloco" id="ibloco" placeholder="Azul">
+                <br>
+            </section>
+            <section>
+                <label for="icurso">Curso<p class="publicint"></p></label>
+                <br>
+                <input type="text" name="curso" id="icurso" placeholder="Design">
+                <br>
+            </section>
+
+            <section>
+                <label for="iperiodo">Período <p class="notpublicint"></p></label>
+                <br>
+                <input type="text" name="periodo" id="iperiodo" placeholder="5° período">
+                <br>
+            </section>
+            <section>
+                <label for="iturno">Turno<p class="publicint"></p></label>
+                <br>
+                <input type="text" name="turno" id="iturno" placeholder="Manhã">
+                <br>
+            </section>
+        </form>
+
+        <div class="containerconti"><input class="continuar" type="button" value="Continuar" onclick="GoToPage(12)"></div>
+
+            <div class="progress-bar">
+                <div class="progress-bar-fill" id="progressFill4"></div>
+            </div>
+        
+    </section>
+</div>
+<!-- --------------------DECIMA SEGUNDA PAGINA ------------------------------------>
+<div class="page" id="page12">
+    <section class="doze">
+    
+        <nav onclick="GoToPage(11)" class="nava"></nav>
+        <h1>Método de pagamento</h1>
+
+        
+
+        <form action="">
+            <div class="opcao">
+                <div class="botoes">
+                    <input type="radio" name="opcao" id="radio" value="1" checked>
+                    <label for="radio">Cartão de crédito</label>
+                </div>
+                <div class="card um">
+                    <p>Mastercard</p>
+                    <p class="senha">xxxx xxxx xxxx 1234</p>
+                    <div>
+                        <p class="check"></p>
+                    </div>
+                </div>
+                <div class="card doiss">
+                    <p>Visa</p>
+                    <p class="senhaa">xxxx xxxx xxxx 9876</p>
+                    <div>
+                        <p class="check"></p>
+                    </div>
+                </div>
+                <p class="add">+ Adicionar um novo cartão</p>
+
+                <div class="checkk">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">Desejo receber no mesmo cartão do cadastro</label>
+                </div>
+
+            </div>
+
+            <div class="opcao">
+                <div class="botoes">
+                    <input type="radio" name="opcao" id="radio" value="2">
+                    <label for="radio">Cartão de débito</label>
+                </div>
+            </div>
+
+            <div class="opcao">
+                <div class="botoes">
+                    <input type="radio" name="opcao" id="radio" value="3">
+                    <label for="radio">PIX</label>
+                </div>
+            </div>
+
+            <div class="opcao">
+                <div class="botoes">
+                    <input type="radio" name="opcao" id="radio" value="1">
+                    <label for="radio">Apple Pay</label>
+                </div>
+            </div>
+        </form>
+
+        <div class="containerconti"><input class="continuar" type="button" value="Continuar" onclick="GoToPage(13)"></div>
+
+            <div class="progress-bar">
+                <div class="progress-bar-fill" id="progressFill4"></div>
+            </div>
+        
+    </section>
+</div>
+<!-- --------------------DECIMA TERCEIRA PAGINA ------------------------------------>
+<div class="page" id="page13">
+    <section class="treze">
+    
+        <nav onclick="GoToPage(12)" class="nava"></nav>
+        <h1>Método de pagamento</h1>
+
+        <div class="cartao">
+            <div class="chip"></div>
+            <p class="numerocartao">**** **** **** 8901</p>
+            <P class="data">11/25</P>
+            <p>Felipe Castro Ricci</p>
+        </div>
+
+
+        <form action="">
+            <div class="inputada">
+                <label for="titular">Titular do cartão</label>
+                <input type="text" name="titular" id="titular" placeholder="Felipe Castro Ricci" class="iiinput">
+            </div>
+
+            <div class="inputada">
+                <label for="numero">Número do cartão</label>
+                <input type="text" name="numero" id="numero" placeholder="**** **** **** 8901" class="iiinput">
+            </div>
+
+            <div class="inputada">
+                <label for="Validade">Validade</label>
+                <input type="text" name="Validade" id="Validade" placeholder="11/22" class="iiinput">
+            </div>
+
+            <div class="inputada">
+                <label for="segurança">Código de segurança</label>
+                <input type="text" name="segurança" id="segurança" placeholder="***" class="iiinput">
+            </div>
+        </form>
+
+        <div class="containerconti"><input class="continuar" type="button" value="Continuar" onclick="GoToPage(14)"></div>
+
+            <div class="progress-bar">
+                <div class="progress-bar-fill" id="progressFill4"></div>
+            </div>
+        
+    </section>
+</div>
+<!-- --------------------DECIMA QUARTA PAGINA ------------------------------------>
+<div class="page" id="page14">
+    <section class="quatorze">
+    
+        <h1>Reservar carona</h1>
+
+        <div class="barraPesquisa" id="barraPesquisa">
+            <div class="icone"><span class="material-symbols-outlined">
+                search
+                </span></div><p>Seu destino</p>
+
+        </div>
+
+        <div class="backlogo"></div>
+
+
+
+
+        <div class="mainnav" id="mainnav">
+
+            <div class="mainhome mainicons">
+
+            </div>
+            <div class="mainchat mainicons">
+
+            </div>
+            <div class="mainperfil mainicons">
+
+            </div>
+
+        </div>
+        
+
+        
+
+        
+    </section>
+    </div>
 
     <script src="javas/script.js"></script>
 </body>

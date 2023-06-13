@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    
+}    
+
+
+.nava{
+    height: 40px;
+    width: 30px;
+    background: url(../../images/back.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin-right: 70vw;
+    /* transform: translate(-100%, +0%); */
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.containerconti{
+    position: absolute;
+    /* margin-top: calc(100vh - 187px); */
+    margin-top: calc(100vh - 35%);
+    
+}
+
+.continuar{
+
+    padding: 12px 16px;
+    border-radius: 13px;
+    border: 0px;
+    height: 48px;
+    width: 70vw;
+    max-width: 600px;
+
+
+    margin: 0px auto;
+    margin-top: 15px;
+    background-color:#747475;
+    color: white;
+    font-weight: bold;
+    &:hover{
+        background-color: #006FFd;
+        cursor: pointer;
+    }
+}
+
+
+
+
+.progress-bar {
+    
+    width: 70vw;
+    height: 7px;
+    border-radius: 5px;
+    background-color: lightgray;
+    margin: 5vh 0px;
+    position: absolute;
+    margin-top: 94vh;
+}
+
+
+.progress-bar-fill {
+    height: 100%;
+    border-radius: 5px;
+    background-color: #006FFD;
+    width: 0;
+    max-width: 100%;
+    transition: width 0.3s ease-in-out;
+}
+
+
+
+
+/* 
+.containerconti{
+    position: absolute;
+    margin-top: calc(100vh - 35%);
+    
+}
+
+.continuar{
+
+    padding: 12px 16px;
+    border-radius: 13px;
+    border: 0px;
+    height: 48px;
+    width: 70vw;
+    max-width: 600px;
+
+
+    margin: 0px auto;
+    margin-top: 15px;
+    background-color:#747475;
+    color: white;
+    font-weight: bold;
+    &:hover{
+        background-color: #006FFd;
+        cursor: pointer;
+    }
+} */
+
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+/* EFETIVO */
+
+
+
+.doze{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}    
+
+.doze h1, nav{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}    
+
+
+.doze form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.doze .opcao{
+    margin: 10px 0px;
+    padding: 13px;
+    width: 80vw;
+    height: fit-content;
+    border-radius: 10px;
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.doze .botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.doze .opcao label{
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.doze .card{
+    margin-top: 10px;
+    box-sizing: border-box;
+    height: 70px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card.um{
+    background-color: #F7C9BC;
+}
+
+.card .doiss{
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+}
+
+.doze .card .senhaa{
+    padding-top: 6px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.466);
+}
+
+.doze .opcao .add{
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 15px 0px 5px 0px;
+}
+
+.doze .checkk{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 0px 5px 0px;
+}
