@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+
+.card{
+    height: 200px;
+    width: 200px;
+    background-color: #050F2B;
+    margin: auto;
+}
